@@ -12,6 +12,49 @@ How to use the theme: https://learn.netlify.com/en/cont/
 More about theme shortcodes: https://learn.netlify.com/en/shortcodes/
 
 use `git lfs` for tracking binary types.
+# To take input from the user
+#num = int(input("Enter a number: "))
+
+# define a flag variable
+flag = False
+
+if num == 1:
+    print(num, "is not a prime number")
+elif num > 1:
+    # check for factors
+    for i in range(2, num):
+        if (num % i) == 0:
+            # if factor is found, set flag to True
+            flag = True
+            # break out of loop
+            break
+
+    # check if flag is True
+    if flag:
+        print(num, "is not a prime number")
+    else:
+        print(num, "is a prime number")# To take input from the user
+#num = int(input("Enter a number: "))
+
+# define a flag variable
+flag = False
+
+if num == 1:
+    print(num, "is not a prime number")
+elif num > 1:
+    # check for factors
+    for i in range(2, num):
+        if (num % i) == 0:
+            # if factor is found, set flag to True
+            flag = True
+            # break out of loop
+            break
+
+    # check if flag is True
+    if flag:
+        print(num, "is not a prime number")
+    else:
+        print(num, "is a prime number")
 
 ```bash
 $ git lfs track "*.psd"
