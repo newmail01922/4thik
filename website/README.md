@@ -12,7 +12,7 @@ How to use the theme: https://learn.netlify.com/en/cont/
 More about theme shortcodes: https://learn.netlify.com/en/shortcodes/
 
 use `git lfs` for tracking binary types.
-
+xfgn xfg xfg ֶ
 ```bash
 $ git lfs track "*.psd"
 git add .gitattributes
